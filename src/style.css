@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: black;
+}
+
+body {
+	display: grid;
+	place-content: center;
+	place-items: center;
+	height: 100vh;
+}
+
+#targetCanvas {
+	max-height: 90vh;
+	max-width: 90vw;
+}
